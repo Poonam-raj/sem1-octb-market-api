@@ -2,11 +2,11 @@
   "name": "team-fe-nc-marketplace-api",
   "version": "1.0.0",
   "description": "",
-  "main": "listen.js",
+  "main": "app.js",
   "scripts": {
     "test": "jest --watch",
     "dev": "nodemon listen.js",
-    "start": "node listen.js",
+    "start": "node app.js",
     "setup-dbs": "psql -f db/setup.sql",
     "seed-dev": "knex seed:run",
     "seed-prod": "NODE_ENV=production knex seed:run",
