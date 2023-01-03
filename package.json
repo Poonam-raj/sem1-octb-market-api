@@ -2,7 +2,7 @@
   "name": "team-fe-nc-marketplace-api",
   "version": "1.0.0",
   "description": "",
-  "main": "app.js",
+  "main": "listen.js",
   "scripts": {
     "test": "jest --watch",
     "dev": "nodemon listen.js",
